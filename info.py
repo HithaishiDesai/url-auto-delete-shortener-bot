@@ -85,7 +85,7 @@ DOWNLOAD_TEXT_NAME = "📥 HOW TO DOWNLOAD 📥"
 DOWNLOAD_TEXT_URL = "https://t.me/How_to_Download_From_Search_Bot/2"
 
    # Custom Caption Under Button #
-CAPTION_BUTTON = "Subscribe"
-CAPTION_BUTTON_URL = "https://youtube.com/c/GreyMattersBot"
+CAPTION_BUTTON = "💿 𝗝𝗢𝗜𝗡 𝗛𝗘𝗥𝗘 💿"
+CAPTION_BUTTON_URL = "https://t.me/HITHAISHI_DESAI_CHAT"
 
    # Auto Delete For Bot Sending Files #
