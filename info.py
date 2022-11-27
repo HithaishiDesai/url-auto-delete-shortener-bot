@@ -43,13 +43,7 @@ P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "False")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), False)
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "hi")
-BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", "<b>🍄 𝗡𝗔𝗠𝗘 :</b> <code>{file_name}</code>
-
-<b>💾 𝗦𝗜𝗭𝗘 :</b> <i>{file_size}</i>
-
-
-<spoiler><b>📣 𝖢𝖧𝖠𝖭𝖭𝖤𝖫 :</b> @HITHAISHI_DESAI
-<b>💬 𝖦𝖱𝖮𝖴𝖯      :</b> @HITHAISHI_DESAI_CHAT </spoiler>")
+BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", "hi")
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "💿 <b>𝗡𝗔𝗠𝗘 : </b> <a href={url}>{title}</a>
 
 <a href="https://t.me/Hithaishi_Desai">🎃 𝗝𝗢𝗜𝗡 𝗙𝗢𝗥 𝗠𝗢𝗩𝗜𝗘𝗦 🎃</a>
