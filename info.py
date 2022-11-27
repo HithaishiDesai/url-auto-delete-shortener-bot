@@ -81,8 +81,8 @@ if SELF_DELETE == "True":
     SELF_DELETE = True
 
     # Download Tutorial Button #
-DOWNLOAD_TEXT_NAME = "📥 HOW TO DOWNLOAD 📥"
-DOWNLOAD_TEXT_URL = "https://t.me/How_to_Download_From_Search_Bot/2"
+DOWNLOAD_TEXT_NAME = "⚠️ 𝗛𝗢𝗪 𝗧𝗢 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗 ⚠️"
+DOWNLOAD_TEXT_URL = "https://t.me/Hithaishi_Desai/10"
 
    # Custom Caption Under Button #
 CAPTION_BUTTON = "💿 𝗝𝗢𝗜𝗡 𝗛𝗘𝗥𝗘 💿"
