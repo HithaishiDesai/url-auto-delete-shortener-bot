@@ -42,13 +42,7 @@ SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'HITHAISHI_DESAI_CHAT')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "False")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), False)
-CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "<b>🍄 𝗡𝗔𝗠𝗘 :</b> <code>{file_name}</code>
-
-<b>💾 𝗦𝗜𝗭𝗘 :</b> <i>{file_size}</i>
-
-
-<spoiler><b>📣 𝖢𝖧𝖠𝖭𝖭𝖤𝖫 :</b> @HITHAISHI_DESAI
-<b>💬 𝖦𝖱𝖮𝖴𝖯      :</b> @HITHAISHI_DESAI_CHAT </spoiler>")
+CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "hi")
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", "<b>🍄 𝗡𝗔𝗠𝗘 :</b> <code>{file_name}</code>
 
 <b>💾 𝗦𝗜𝗭𝗘 :</b> <i>{file_size}</i>
