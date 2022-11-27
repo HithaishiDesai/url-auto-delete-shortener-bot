@@ -44,13 +44,7 @@ IMDB = is_enabled((environ.get('IMDB', "False")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), False)
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "hi")
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", "hi")
-IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "💿 <b>𝗡𝗔𝗠𝗘 : </b> <a href={url}>{title}</a>
-
-<a href="https://t.me/Hithaishi_Desai">🎃 𝗝𝗢𝗜𝗡 𝗙𝗢𝗥 𝗠𝗢𝗩𝗜𝗘𝗦 🎃</a>
-
-<a href="https://t.me/HITHAISHI_DESAI_CHAT/77321">⚠️ 𝗥𝗘𝗔𝗗 𝗥𝗨𝗟𝗘𝗦 ⚠️</a>
-
-🤴🏻 <b>𝗥𝗘𝗤𝗨𝗘𝗦𝗧𝗘𝗗 𝗕𝗬 :</b> {message.from_user.mention}")
+IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "hi")
 LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False"), False)
 SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "False"), True)
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
