@@ -23,10 +23,10 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('⚡ UᎮDΛTΞS ⚡', url='https://t.me/greymatter_bots')
+                InlineKeyboardButton('🍿 𝗠𝗢𝗩𝗜𝗘𝗦 🍿', url='https://t.me/HithaishiMovies_Discussion_Group')
             ],
             [
-                InlineKeyboardButton('⚡ SUBSCᏒIBΞ ⚡', url=f"https://youtube.com/c/GreyMattersBot"),
+                InlineKeyboardButton('ℹ️ Help', url=f"https://t.me/{temp.U_NAME}?start=help"),
             ],
             [
                 InlineKeyboardButton(text=DOWNLOAD_TEXT_NAME,url=DOWNLOAD_TEXT_URL)
@@ -45,13 +45,17 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-            ],[
-            InlineKeyboardButton('⚡ SUBSCᏒIBΞ ⚡', url='https://youtube.com/c/GreyMattersBot'),
-            InlineKeyboardButton('🤖 UᎮDΛTΞS 🤖', url='https://t.me/greymatter_bots')
-            ],[
-            InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
-            InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
+            InlineKeyboardButton('🤴🏻 𝗢𝗪𝗡𝗘𝗥', url='https://t.me/Hithaishi_Desai')
+        ], [
+            InlineKeyboardButton('🕵🏻‍♂ 𝗦𝗘𝗔𝗥𝗖𝗛', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('🍿 𝗠𝗢𝗩𝗜𝗘𝗦 🍿', url='https://t.me/HITHAISHI_DESAI_CHAT')
+        ], [
+            InlineKeyboardButton('📂 𝗙𝗜𝗟𝗘𝗦', callback_data='stats'),
+            InlineKeyboardButton('🍁 𝗦𝗢𝗨𝗥𝗖𝗘', url='https://github.com/HithaishiDesai/Hithaishi-File-Store-Bot')
+        ], [
+            InlineKeyboardButton('🤠 𝗧𝗛𝗔𝗡𝗞𝗦 🤠', url='https://t.me/SUBINPS')
+        ], [
+            InlineKeyboardButton('🎁 𝗔𝗗𝗗 𝗧𝗢 𝗬𝗢𝗨𝗥 𝗚𝗥𝗢𝗨𝗣 🎁', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -70,7 +74,7 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "🔥 JOIИ UᎮDΛTΞS CHΛИИΞL 🔥", url=invite_link.invite_link
+                    "🤖 Join Updates Channel", url=invite_link.invite_link
                 )
             ]
         ]
@@ -91,13 +95,17 @@ async def start(client, message):
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-            ],[
-            InlineKeyboardButton('⚡ SUBSCᏒIBΞ ⚡', url='https://youtube.com/c/GreyMattersBot'),
-            InlineKeyboardButton('🤖 UᎮDΛTΞS 🤖', url='https://t.me/greymatter_bots')
-            ],[
-            InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
-            InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
+            InlineKeyboardButton('🤴🏻 𝗢𝗪𝗡𝗘𝗥', url='https://t.me/Hithaishi_Desai')
+        ], [
+            InlineKeyboardButton('🕵🏻‍♂ 𝗦𝗘𝗔𝗥𝗖𝗛', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('🍿 𝗠𝗢𝗩𝗜𝗘𝗦 🍿', url='https://t.me/HITHAISHI_DESAI_CHAT')
+        ], [
+            InlineKeyboardButton('📂 𝗙𝗜𝗟𝗘𝗦', callback_data='stats'),
+            InlineKeyboardButton('🍁 𝗦𝗢𝗨𝗥𝗖𝗘', url='https://github.com/HithaishiDesai/Hithaishi-File-Store-Bot')
+        ], [
+            InlineKeyboardButton('🤠 𝗧𝗛𝗔𝗡𝗞𝗦 🤠', url='https://t.me/SUBINPS')
+        ], [
+            InlineKeyboardButton('🎁 𝗔𝗗𝗗 𝗧𝗢 𝗬𝗢𝗨𝗥 𝗚𝗥𝗢𝗨𝗣 🎁', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
